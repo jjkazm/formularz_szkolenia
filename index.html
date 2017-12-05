@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" >
+    <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <meta name="Kuba" content="origin">
+    <meta name="referrer" content="origin">
 </head>
 
 <body>
@@ -20,22 +20,21 @@
         <label for="phone">Telefon:</label><br>
         <input type="tel" id="phone"><br>
         <label for="city">Miasto:</label><br>
-
-        <select name="miasto" id="city">
-       <option value="Krakow">Krakow</option>
-       <option value="Warszawa">Warszawa</option>
-       <option value="Gdansk">Gdansk</option>
-         </select><br>
-         <label >Plec:</label><br>
-         
-
-
         
+        <select name="miasto" id="city">
+               <option value="krakow">Krakow</option>
+               <option value="warszawa">Warszawa</option>
+               <option value="gdansk">Gdansk</option>
 
-        <input type="radio" name="sex" value="M" id="r1" checked><label for="r1">M</label><br>
-        <input type="radio" name="sex" value="K" id="r2"><label for="r2">K</label><br>
-        <input type="radio" name="sex" value="inna" id="r3"><label for="r3"></label>Inna<br>
-            
+
+        </select><br>
+        
+        
+        <p>Plec:</p><br>
+        <input type="radio" name="sex" value="m" id="male" checked><label for="male">M</label><br>
+        <input type="radio" name="sex" value="k" id="female"><label for="female">K</label><br>
+        <input type="radio" name="sex" value="inna" id="other"><label for="other"></label>Inna<br>
+
 
         <div>
             <input type="checkbox" id="zgoda" required><label for="zgoda">Wyrazam zgode na przetwarzanie <br>danych osobowych</label><br>
@@ -45,7 +44,7 @@
         <label for="msg">Wiadomosc:</label><br>
         <textarea name="wiadomosc" id="msg" cols="30" rows="10"></textarea>
 
-        <input type="submit" id="submit" value="Wyslij">
+        <input type="submit" id="submit" value="wyslij">
 
 
 
