@@ -31,7 +31,11 @@ form {
       border-radius: 4px;
 }
 
-
+#submit{
+    padding: 8px;
+    margin: 5px;
+    
+}
 
 .border {
     padding: 50px;
@@ -42,6 +46,9 @@ form {
     border-radius: 30px;
 }
 
+.radio {
+    color: red;
+}
 
 
 input {
